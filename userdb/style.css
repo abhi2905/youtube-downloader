@@ -1,0 +1,10 @@
+
+
+.form {display: block; background-color: #202020; text-align: center; border: 1px solid black; width: 30%; height: 86%; padding: 2%; margin-top: 3%;}
+form { display: inline-block; text-align: center;}
+
+.form h1 { color: white; font-size: 20px;}
+.form input { line-height: 30px; width: 200px; margin-top: 7px; background-color: #080808; color: white; border-radius: 5px;}
+
+#reg { background-color: #00CCFF; width: 75px; float: left; margin-top: 12px;}
+#log {  background-color: #00CCFF; width: 200px; margin-top: 0px; float: right;}

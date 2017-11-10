@@ -1,0 +1,447 @@
+body
+	{
+	margin:2px;
+	padding:2px;
+	border-width:0px;
+	}
+
+
+#container
+	{
+	max-width:max;
+	height:auto;
+	margin:1px auto;
+	padding:0;
+	font-family:timesnewroman;
+	font-size:14px;
+	border:1px solid #000000;
+	
+	}
+
+
+#container #header
+	{
+	width:100%;
+	height:330px;
+	border:1px solid #d1d1d1;
+	background-image:url(../image/slider4.jpg);
+	}
+	
+	
+	#login5>a
+	{
+		color:#FFFF00;
+		text-decoration:none;
+	}
+
+
+
+
+#container #body1
+	{
+	width:100%;
+	height:0 auto;
+	margin-top:0px;
+	padding:1px 0px;
+	border:0px solid #d1d1d1;
+	overflow:auto;
+	background-color: #9090af;
+	}
+
+
+#container #footer
+	{
+	text-align:center;
+	width:100%;
+	height:90px;
+	margin-top:0px;
+	border:0px solid #f22000;
+	background-color:#000000;
+	color:white;
+              }
+
+
+#container #body1 #left-nav
+	{
+	width:19%;
+	height:0 auto;
+	border:px solid #000000;
+	float:left;
+	}
+
+
+#container #body1 #right-nav
+	{
+	width:55%;
+	height:226px;
+	border:0px solid #000000;
+	margin:0 auto;
+	
+}
+
+
+#container  #body1 #right
+	{
+	width:21%;
+	height:0 auto;
+	border:0px solid #000000;
+	float:right;
+	}
+
+
+
+.nav
+	{
+	width:90%;
+	margin-top:5px;
+	border-bottom:1px dotted #00cc00;
+	padding:5px;
+	}
+
+
+.nav>a
+	{
+	border-radius:7px;
+	background-color:#000000;
+	box-shadow:3px 0px 0px 3px #33cc00;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	display:block;
+	margin:2px;
+	padding:5px;
+	}
+
+
+.nav>a:hover
+	{
+	background-color:blue;
+	color:white;
+	}
+
+	
+#container #body1 #right-nav #right-top>form
+	{
+	text-align:center;
+		
+	}
+
+#container #body1 #right-nav #right-top>form>#btnsearch
+	{
+	margin-left:-10px;
+	}
+	
+
+#container #body1 #right-nav #right-top>form>#txtsearch	
+	{
+	width:250px;
+	height:15px;
+	}
+
+
+
+#container #body1 #right-nav #right-top1
+	{
+	padding:4px;
+	text-align:center;
+	color:#F7F30C;
+	font-size:13px;
+	font-weight:bold;
+	font-family:tahoma;
+	line-height:16px;
+	display:block;
+	}
+
+
+#container #header>form
+	{
+	float:right;
+	padding:35px 24px 35px 42px;
+	}
+	
+#container #header #logo
+	{
+	float:left;
+	width:20%;
+	height:0 auto;
+	border:0px solid #000000;
+	padding:6px 5px 0px 0px;
+	}
+
+
+input[type=button],input[type=submit],input[type=reset]
+	{
+	margin:o;
+	padding:5px 7px;
+	border-width:0;
+	background-color:#ff2200;
+	color:white;
+	border-radius:5px;
+	}
+
+input[type=text]:focus
+	{
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	box-shadow:1px 1px 5px 5px #ff9999;
+	-webkit-border-radius:1px 1px 5px 5px #ff9999;
+	-moz-border-radius:1px 1px 5px 5px #ff9999;
+	-o-border-radius:1px 1px 5px 5px #ff9999;
+	}
+
+input[type=text],input[type=password],textarea
+	{
+	padding:5px 7px;
+	border:1px solid #d1d1d1;
+	background-color:#ffffff;
+	border-radius:10px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	box-shadow:1px 1px5px 5px #ff9999;
+	-webkit-border-radius:1px 1px 5px 5px #ff9999;
+	-moz-border-radius:1px 1px 5px 5px #ff9999;
+	-o-border-radius:1px 1px 5px 5px #ff9999;
+	}
+
+
+.nav
+	{
+	text-align:center;
+	text-weight:20;
+	text-size:25;
+	}
+
+
+#container #footer1>#myaccount
+	{
+	width:33%;
+	height:0 auto;
+	border:0px solid #000000;
+	float:left;
+	}
+
+
+
+#container #footer1>#myaccount>form>a
+	{
+	text-align:none;
+	text-decoration:none;
+	color:white;
+	font-size:16px;
+	
+	}
+
+#container #footer1>#myaccount>form>h2
+	{
+	color:white;
+	}
+
+
+
+
+#container #footer1>#subscribe
+	{
+	width:33%;
+	height:0 auto;
+	border:0px solid #ff0000;
+	float:right;
+	}
+
+#container  #footer1>#subscribe>form
+	{
+	color:white;
+	}
+
+
+#container  #footer1>#subscribe>form>#btnemail
+	{
+	margin-left:-10px;
+	}
+	
+
+#container  #footer1>#subscribe>form>#txtemail
+	{
+	width:150px;
+	height:16px;
+	}
+#container  #footer1>#subscribe>form>input[type=submit]
+	{
+	margin:o;
+	padding:5px 7px;
+	border-width:0;
+	background-color:#00cc00;
+	
+	
+	}
+
+#container  #footer1>#contactus
+	{
+	width:33%;
+	height:0 auto;
+	border:0px solid #000000;
+	margin:0 auto;
+	}
+
+#container  #footer1>#contactus>form
+	{
+	color:white;
+	padding:5px 2px;
+	}
+
+#container  #footer1
+	{
+	border:0px solid #d1d1d1;
+	background-image:url(../image/color.png);
+	height:180px
+	}
+
+
+#container  #footer #youtubehub
+	{
+	width:30%;
+	height:0 auto;
+	margin-top: 10px;
+	float:left;
+	border:0px solid #ff2200;
+	padding:4px 2px;
+	text-align:center;
+	color:#00cc00;
+	font-size:13px;
+	font-family:Algerian;
+	}
+
+
+#container  #footer #copyright
+	{
+	width:25%;
+	height:0 auto;
+	float:right;
+	border:0px solid #00ff00;
+	padding:30px 2px;
+	}
+
+
+#container  #footer #share
+	{
+	width:40%;
+	height:0 auto;
+	border:0px solid #d10000;
+	margin:0 auto;
+	}
+
+
+
+
+#container  #footer #share>.abc
+	{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	background-color:#000000;
+	}
+
+
+#container  #footer #share>.abc>li
+	{
+	float:left;
+	}
+
+
+
+#container  #footer #share>.abc>li>a
+	{
+	text-align:center;
+	list-style-type:none;
+	text-decoration:none;
+	
+	margin:0;
+	padding:15px 13px;
+	display:block;
+	width:36px;
+	height:35px;
+	background-image:url(../image/Social_circle.png);
+	}
+
+.fb	
+	{
+	
+	background-position:-44px -27px;
+              background-repeat:no-repeat;
+	}
+
+.fb:hover
+	{
+	background-position:-44px -95px;
+	transition-property:background-position;
+	transition-duration:2s;
+	
+	}
+.tw	
+	{
+	
+	background-position:-412px -27px;
+	}
+
+.tw:hover
+	{
+	background-position:-412px -95px;
+	transition-property:background-position;
+	transition-duration:2s;
+	}
+
+.yt	
+	{
+	
+	background-position:-349px -27px;
+	}
+
+.yt:hover
+	{
+	background-position:-349px -95px;
+	transition-property:background-position;
+	transition-duration:2s;
+	}
+
+.in	
+	{
+	
+	background-position:-166px -27px;
+              background-repeat:no-repeat;
+	}
+
+.in:hover
+	{
+	
+	background-position:-166px -95px;
+	transition-property:background-position;
+	transition-duration:2s;
+	}
+.share1	
+	{
+	
+	background-position:-228px -27px;
+              background-repeat:no-repeat;
+	}
+
+.share1:hover
+	{
+	background-position:-228px -95px;
+	transition-property:background-position;
+	transition-duration:2s;
+	}
+.pic	
+	{
+	
+	background-position:-289px -27px;
+    background-repeat:no-repeat;
+	}
+
+.pic:hover
+	{
+	background-position:-289px -95px;
+	transition-property:background-position;
+	transition-duration:2s;
+	}

@@ -1,0 +1,174 @@
+body
+{
+margin:2px;
+padding:2px;
+border-width:0px;
+}
+
+
+#container
+{
+max-width:max;
+height:auto;
+margin:1px auto;
+padding:0;
+font-family:timesnewroman;
+font-size:14px;
+
+
+}
+
+
+#container #header
+{
+text-align:center;
+border:1px solid #FDFFFF;
+}
+
+
+
+
+
+#container #body1
+{
+width:100%;
+height:100%;
+
+margin-top:-190px;
+
+padding:200px 0px;
+border:0px solid #d1d1d1;
+}
+
+
+
+
+
+#container #body1 #left-nav
+{
+width:19%;
+height:0 auto;
+border:px solid #000000;
+float:left;
+}
+
+
+#container #body1 #right-nav
+{
+width:55%;
+height:226px;
+margin:0 auto;
+
+}
+
+
+#container  #body1 #right
+{
+width:21%;
+height:0 auto;
+border:0px solid #000000;
+float:right;
+}
+
+
+
+.nav
+{
+width:90%;
+margin-top:-60px;
+border-bottom:1px dotted #00cc00;
+padding:5px;
+}
+
+
+.nav>a
+{
+border-radius:7px;
+background-color:#000000;
+box-shadow:3px 0px 0px 3px #33cc00;
+text-align:center;
+text-decoration:none;
+color:white;
+display:block;
+margin:15px;
+padding:5px;
+}
+
+
+.nav>a:hover
+{
+background-color:blue;
+color:white;
+}
+
+
+#container #body1 #right-nav #right-top
+{
+text-align:center;
+    
+}
+
+#container #body1 #right-nav #right-top
+{
+margin-left:-10px;
+}
+
+
+#container #body1 #right-nav #right-top>form
+{
+width:250px;
+height:15px;
+}
+
+
+
+
+
+
+
+
+
+input[type=button],input[type=submit],input[type=reset]
+{
+margin:o;
+padding:5px 7px;
+border-width:0;
+background-color:#ff2200;
+color:white;
+border-radius:5px;
+}
+
+input[type=text]:focus
+{
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+box-shadow:1px 1px 5px 5px #ff9999;
+-webkit-border-radius:1px 1px 5px 5px #ff9999;
+-moz-border-radius:1px 1px 5px 5px #ff9999;
+-o-border-radius:1px 1px 5px 5px #ff9999;
+}
+
+input[type=text],input[type=password],textarea
+{
+padding:5px 7px;
+border:1px solid #d1d1d1;
+background-color:#ffffff;
+border-radius:10px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+box-shadow:1px 1px5px 5px #ff9999;
+-webkit-border-radius:1px 1px 5px 5px #ff9999;
+-moz-border-radius:1px 1px 5px 5px #ff9999;
+-o-border-radius:1px 1px 5px 5px #ff9999;
+}
+
+
+.nav
+{
+text-align:center;
+font-weight:20;
+font-size:25;
+}

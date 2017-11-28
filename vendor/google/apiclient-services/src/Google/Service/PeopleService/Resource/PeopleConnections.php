@@ -43,20 +43,20 @@ class Google_Service_PeopleService_Resource_PeopleConnections extends Google_Ser
    * fields on each person are returned. Valid values are:
    *
    * * addresses * ageRanges * biographies * birthdays * braggingRights *
-   * coverPhotos * emailAddresses * events * genders * imClients * interests *
-   * locales * memberships * metadata * names * nicknames * occupations *
-   * organizations * phoneNumbers * photos * relations * relationshipInterests *
+   * coverPhotos * emailAddresses * events * genders * imClients * locales *
+   * memberships * metadata * names * nicknames * occupations * organizations *
+   * phoneNumbers * photos * relations * relationshipInterests *
    * relationshipStatuses * residences * skills * taglines * urls
    * @opt_param string sortOrder The order in which the connections should be
    * sorted. Defaults to `LAST_MODIFIED_ASCENDING`.
    * @opt_param bool requestSyncToken Whether the response should include a sync
    * token, which can be used to get all changes since the last request.
    * @opt_param string pageToken The token of the page to be returned.
+   * @opt_param int pageSize The number of connections to include in the response.
+   * Valid values are between 1 and 2000, inclusive. Defaults to 100.
    * @opt_param string requestMask.includeField **Required.** Comma-separated list
    * of person fields to be included in the response. Each path should start with
    * `person.`: for example, `person.names` or `person.photos`.
-   * @opt_param int pageSize The number of connections to include in the response.
-   * Valid values are between 1 and 2000, inclusive. Defaults to 100.
    * @return Google_Service_PeopleService_ListConnectionsResponse
    */
   public function listPeopleConnections($resourceName, $optParams = array())

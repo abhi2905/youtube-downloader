@@ -42,7 +42,6 @@ class Google_Service_AdExchangeBuyerII_Resource_BiddersFilterSets extends Google
    * @param Google_Service_AdExchangeBuyerII_FilterSet $postBody
    * @param array $optParams Optional parameters.
    *
-   * @opt_param string accountId Account ID of the buyer.
    * @opt_param bool isTransient Whether the filter set is transient, or should be
    * persisted indefinitely. By default, filter sets are not transient. If
    * transient, it will be available for at least 1 hour after creation.
@@ -69,9 +68,6 @@ class Google_Service_AdExchangeBuyerII_Resource_BiddersFilterSets extends Google
    * - For an account-level filter set for the child seat buyer account 456
    * whose bidder is 123: `bidders/123/accounts/456/filterSets/abc`
    * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filterSetId The ID of the filter set to delete.
-   * @opt_param string accountId Account ID of the buyer.
    * @return Google_Service_AdExchangeBuyerII_Adexchangebuyer2Empty
    */
   public function delete($name, $optParams = array())
@@ -95,9 +91,6 @@ class Google_Service_AdExchangeBuyerII_Resource_BiddersFilterSets extends Google
    * - For an account-level filter set for the child seat buyer account 456
    * whose bidder is 123: `bidders/123/accounts/456/filterSets/abc`
    * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filterSetId The ID of the filter set to get.
-   * @opt_param string accountId Account ID of the buyer.
    * @return Google_Service_AdExchangeBuyerII_FilterSet
    */
   public function get($name, $optParams = array())
@@ -126,7 +119,6 @@ class Google_Service_AdExchangeBuyerII_Resource_BiddersFilterSets extends Google
    * should return. Typically, this is the value of
    * ListFilterSetsResponse.nextPageToken returned from the previous call to the
    * accounts.filterSets.list method.
-   * @opt_param string accountId Account ID of the buyer.
    * @opt_param int pageSize Requested page size. The server may return fewer
    * results than requested. If unspecified, the server will pick an appropriate
    * default.

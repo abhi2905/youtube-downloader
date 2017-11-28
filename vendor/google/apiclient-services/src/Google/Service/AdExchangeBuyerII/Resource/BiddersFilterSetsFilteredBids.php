@@ -46,11 +46,9 @@ class Google_Service_AdExchangeBuyerII_Resource_BiddersFilterSetsFilteredBids ex
    * should return. Typically, this is the value of
    * ListFilteredBidsResponse.nextPageToken returned from the previous call to the
    * filteredBids.list method.
-   * @opt_param string accountId Account ID of the buyer.
    * @opt_param int pageSize Requested page size. The server may return fewer
    * results than requested. If unspecified, the server will pick an appropriate
    * default.
-   * @opt_param string filterSetId The ID of the filter set to apply.
    * @return Google_Service_AdExchangeBuyerII_ListFilteredBidsResponse
    */
   public function listBiddersFilterSetsFilteredBids($filterSetName, $optParams = array())

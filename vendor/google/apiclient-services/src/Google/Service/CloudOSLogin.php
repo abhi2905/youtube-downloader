@@ -19,7 +19,7 @@
  * Service definition for CloudOSLogin (v1alpha).
  *
  * <p>
- * Manages OS login configuration for Directory API users.</p>
+ * Manages OS login configuration for Google account users.</p>
  *
  * <p>
  * For more information about this service, see the API

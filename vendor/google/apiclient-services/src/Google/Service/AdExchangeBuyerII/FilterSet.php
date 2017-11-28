@@ -23,7 +23,6 @@ class Google_Service_AdExchangeBuyerII_FilterSet extends Google_Collection
   public $creativeId;
   public $dealId;
   public $environment;
-  public $filterSetId;
   public $format;
   public $name;
   public $platforms;
@@ -71,14 +70,6 @@ class Google_Service_AdExchangeBuyerII_FilterSet extends Google_Collection
   public function getEnvironment()
   {
     return $this->environment;
-  }
-  public function setFilterSetId($filterSetId)
-  {
-    $this->filterSetId = $filterSetId;
-  }
-  public function getFilterSetId()
-  {
-    return $this->filterSetId;
   }
   public function setFormat($format)
   {

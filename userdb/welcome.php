@@ -23,7 +23,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
     <div class="page-header">
         <h1>Hi, <b><?php echo $_SESSION['username']; ?></b>. Welcome to our site.</h1>
     </div>
-    <p><a href="http://localhost/utubehub/front.php" class="btn btn-danger"> Home</a></p>
+    <p><a href="http://localhost/utubehubsgi/front.php" class="btn btn-danger"> Home</a></p>
    
 </body>
 </html>

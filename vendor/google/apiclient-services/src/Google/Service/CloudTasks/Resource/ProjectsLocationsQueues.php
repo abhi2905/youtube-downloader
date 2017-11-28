@@ -272,6 +272,9 @@ class Google_Service_CloudTasks_Resource_ProjectsLocationsQueues extends Google_
   /**
    * Sets the access control policy for a Queue. Replaces any existing policy.
    *
+   * Note: The Cloud Console does not check queue-level IAM permissions yet.
+   * Project-level permissions are required to use the Cloud Console.
+   *
    * Authorization requires the following [Google IAM](/iam) permission on the
    * specified resource parent:
    *

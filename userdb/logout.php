@@ -12,6 +12,6 @@ echo "Account logged out";
 
  
 // Redirect to login page
-/*header("location: http://localhost/utubehub/front.php");
-exit;*/
+header("location: http://localhost/utubehubsgi/front.php");
+exit;
 ?>

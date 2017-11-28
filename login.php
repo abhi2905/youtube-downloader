@@ -175,22 +175,22 @@
 			
 			
 					<li>
-					<a href="#"  class="fb"> </a>
+					<a href="https://www.facebook.com/login/"  class="fb"> </a>
 					</li>
 					<li>
-					<a href="#"  class="tw" ></a>
+					<a href="https://twitter.com/signup?lang=en"  class="tw" ></a>
 					</li>
 					<li>
-					<a href="#" class="yt"> </a>
+					<a href="https://www.youtube.com/" class="yt"> </a>
 					</li>
 					<li>
-					<a href="#" class="in"> </a>
+					<a href="https://www.youtube.com/" class="in"> </a>
 					</li>
 					<li>
-					<a href="#" class="share1"> </a>
+					<a href="https://play.google.com/store/apps/details?id=com.lenovo.anyshare.gps&hl=en" class="share1"> </a>
 					</li>
 					<li>
-					<a href="#" class="pic"> </a>
+					<a href="https://picsart.apportal.co/?gclid=EAIaIQobChMI3syWz-K-1wIVFCUrCh1i9gKjEAAYASAAEgLYYfD_BwE" class="pic"> </a>
 					</li>
 			
 				</ul>

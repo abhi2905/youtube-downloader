@@ -21,8 +21,7 @@
 				<div id="login5">
 				<a href="userdb/login.php"><h2>LogIn</h2></a>
 				<a href="userdb/logout.php"><h2>LogOut</h2></a>
-				<a href="fb/index.php"><img src="download.png" alt="facebook login" style="width:42px;height:42px;border:0;"></a>
-
+				
 				</div>
 				</form>
 	
@@ -37,21 +36,19 @@
 	<div id="body1">
 			<div id="left-nav">
 			<div class="nav">
-					<a href="http://localhost/utubehub/front.php">Home</a>
+					<a href="http://localhost/utubehubsgi/front.php">Home</a>
 				
-					<a href="#">Release</a>
+					
 				
-					<a href="#">Upcomming</a>
+					<a href="upcoming1.php">Upcomming</a>
 				
-					<a href="#">Watch later</a>
+					<a href="popular1.php">Most popular</a>
 				
-					<a href="#">Most popular</a>
+					<a href="contactus.php">About us</a>
 				
-					<a href="#">About us</a>
+					<a href="faq.php">FAQ</a>
 				
-					<a href="#">FAQ</a>
-				
-					<a href="#">Feedback</a>
+					<a href="feedback.php">Feedback</a>
 			</div>
 			</div>
 
@@ -61,9 +58,9 @@
 			<div class="nav">
 					<a href="#">History</a>
 				
-					<a href="#">Download list</a>
+					<a href="list.php">Download list</a>
 				
-					<a href="#">How to use</a>
+					<a href="howtouse.php">How to use</a>
 				
 					
 			</div>
@@ -73,7 +70,7 @@
 		<div id="right-nav">
 			
 			<div id="right-top">
-				<form align="center" method="get" action="getvideo.php" >
+				<form align="center" method="get" action="viewvideos.php" >
 				 <div>
 					 	<h3><input type="search" id="q" name="q" placeholder="Enter your Search Text" /></h3>
 				 </div>
@@ -95,7 +92,7 @@
 				
 			<div id="right-top1"  size="20">	
 									Watch YOUTUBE HUB online:<br>
-									&emsp;YouTube HUB is just a fast and better place for watching online movies and download for free.
+									&emsp;YouTube HUB is just a fast & better place for watching online videos & download for free.
 			</div>
 			
 			
@@ -121,9 +118,9 @@
 				<h2 color="white">My Account</h2>
 				<a href="http://localhost/utubehub/front.php">Home</a><br>
 				
-					<a href="#">About Us</a><br>
+					<a href="contactus.php">About Us</a><br>
 				
-					<a href="#">Contact Us</a><br>
+					<a href="contactus.php">Contact Us</a><br>
 				
 					<a href="#">My Account</a><br>
 				
@@ -135,13 +132,13 @@
 
 			
 			<div id="subscribe"> 
-				<form align="center" >
+				<form align="center" method="post" action="subscribe/manage.php" >
 				<h2>Be the First to know</h2>
 				Subscribe to our newsletter</br>
 				today</br></br>
 				Enter your Email Address:-</br>
-				<input type="text" id="txtemail" name="txtemail" />
-				<input type="submit" id="btnemail" name="btnemail" value="Subscribe"/>
+				<input type="email" id="email" name="email"/>
+				<input type="submit" id="submit" name="submit" value="Subscribe"/>
 				</form>
 			</div> 
 			
@@ -190,22 +187,22 @@
 			
 			
 					<li>
-					<a href="#"  class="fb"> </a>
+					<a href="https://www.facebook.com/login/"  class="fb"> </a>
 					</li>
 					<li>
-					<a href="#"  class="tw" ></a>
+					<a href="https://twitter.com/signup?lang=en"  class="tw" ></a>
 					</li>
 					<li>
-					<a href="#" class="yt"> </a>
+					<a href="https://www.youtube.com/" class="yt"> </a>
 					</li>
 					<li>
-					<a href="#" class="in"> </a>
+					<a href="https://www.youtube.com/" class="in"> </a>
 					</li>
 					<li>
-					<a href="#" class="share1"> </a>
+					<a href="https://play.google.com/store/apps/details?id=com.lenovo.anyshare.gps&hl=en" class="share1"> </a>
 					</li>
 					<li>
-					<a href="#" class="pic"> </a>
+					<a href="https://picsart.apportal.co/?gclid=EAIaIQobChMI3syWz-K-1wIVFCUrCh1i9gKjEAAYASAAEgLYYfD_BwE" class="pic"> </a>
 					</li>
 			
 				</ul>

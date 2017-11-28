@@ -1,5 +1,6 @@
 {
     "require": {
-        "google/apiclient": "^2.0"
+        "google/apiclient": "^2.0",
+        "norkunas/youtube-dl-php": "^0.3.5"
     }
 }

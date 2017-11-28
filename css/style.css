@@ -135,7 +135,7 @@ body
 #container #body1 #right-nav #right-top>form>#txtsearch	
 	{
 	width:250px;
-	height:15px;
+	height:14px;
 	}
 
 
@@ -217,6 +217,7 @@ input[type=text],input[type=password],textarea
 
 #container #footer1>#myaccount
 	{
+	text-align:center;
 	width:33%;
 	height:0 auto;
 	border:0px solid #000000;
@@ -244,6 +245,7 @@ input[type=text],input[type=password],textarea
 
 #container #footer1>#subscribe
 	{
+	text-align:center;
 	width:33%;
 	height:0 auto;
 	border:0px solid #ff0000;
@@ -279,6 +281,7 @@ input[type=text],input[type=password],textarea
 
 #container  #footer1>#contactus
 	{
+	text-align:center;
 	width:33%;
 	height:0 auto;
 	border:0px solid #000000;
@@ -445,3 +448,11 @@ input[type=text],input[type=password],textarea
 	transition-property:background-position;
 	transition-duration:2s;
 	}
+
+
+
+
+
+
+
+

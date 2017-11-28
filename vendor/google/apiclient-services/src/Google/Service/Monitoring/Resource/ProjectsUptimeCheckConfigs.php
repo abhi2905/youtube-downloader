@@ -114,8 +114,6 @@ class Google_Service_Monitoring_Resource_ProjectsUptimeCheckConfigs extends Goog
    * the current uptime check configuration are updated with values from the new
    * configuration. If this field is empty, then the current configuration is
    * completely replaced with the new configuration.
-   * @opt_param string name1 The uptime check configuration to update. The format
-   * isprojects/[PROJECT_ID]/uptimeCheckConfigs/[UPTIME_CHECK_ID].
    * @return Google_Service_Monitoring_UptimeCheckConfig
    */
   public function patch($name, Google_Service_Monitoring_UptimeCheckConfig $postBody, $optParams = array())

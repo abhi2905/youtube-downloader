@@ -20,6 +20,8 @@ class Google_Service_BigQueryDataTransfer_TransferRun extends Google_Model
   public $dataSourceId;
   public $destinationDatasetId;
   public $endTime;
+  protected $errorStatusType = 'Google_Service_BigQueryDataTransfer_Status';
+  protected $errorStatusDataType = '';
   public $name;
   public $params;
   public $runTime;
@@ -53,6 +55,20 @@ class Google_Service_BigQueryDataTransfer_TransferRun extends Google_Model
   public function getEndTime()
   {
     return $this->endTime;
+  }
+  /**
+   * @param Google_Service_BigQueryDataTransfer_Status
+   */
+  public function setErrorStatus(Google_Service_BigQueryDataTransfer_Status $errorStatus)
+  {
+    $this->errorStatus = $errorStatus;
+  }
+  /**
+   * @return Google_Service_BigQueryDataTransfer_Status
+   */
+  public function getErrorStatus()
+  {
+    return $this->errorStatus;
   }
   public function setName($name)
   {
